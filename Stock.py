@@ -43,11 +43,13 @@ X_test = df_test[features]
 y = df_train[target]
 y_test = df_test[target]
 
+# # Fitting Linear Regression to the dataset and predicting a new result
 model.fit(X, y)
 print("Coef: ", model.coef_)
 print("Intercept: ", model.intercept_)
 y_pred = model.predict(X_test)
 
+# Calculate the errors
 mae = mean_absolute_error( y_test, y_pred)
 mse = mean_squared_error( y_test, y_pred)
 
@@ -68,3 +70,26 @@ plt.xticks( rotation = 45)
 
 plt.legend()
 plt.show()
+
+# Random Forest
+from sklearn.ensemble import RandomForestRegressor
+regressor = RandomForestRegressor(n_estimators = 300, random_state = 0)
+# Fitting Random Forest Regression to the dataset
+regressor.fit(X, y)
+print("Coef: ", model.coef_)
+print("Intercept: ", model.intercept_)
+
+# Predicting a new result
+y_pred = regressor.predict(X_test)
+
+# Calculate the errors
+mae = mean_absolute_error( y_test, y_pred)
+mse = mean_squared_error( y_test, y_pred)
+
+print("MAE: ", mae)
+mape = 100 * (mae/y_test)
+accuracy = 100 - np.mean(mape)
+print('Accuracy: ', round(*accuracy, 2), '%')
+print("MSE: ", mse)
+print("RMSE: ", np.sqrt(mse))
+print("Score: ", model.score(X, y))
