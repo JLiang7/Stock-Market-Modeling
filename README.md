@@ -14,6 +14,7 @@ Two-Part Project
 - Running models on a static S&P500 csv file
 ```
 Stock.ipynb
+sphist.csv 
 ```
 ### Second Part
 - Apply modeling to modern stock data retrieved thru API 
