@@ -23,32 +23,26 @@ pip install numpy
 pip install pandas
 ```
 ## Modeling
-**1. Data Preprocessing and Exploratory Data Analysis
-  >- Check Data
+**1. Data Preprocessing and Exploratory Data Analysis**
+  >- Check and Understand Data
   >- Convert datatypes
-  >- Check Data**
+  >- Clean Data ( Remove anything unused, Duplicates) Removed rows with missing values 
   
 **2. Train/Test Split**
-  >- Check Data
-  >- Check Data
-  >- Check Data
+  >- Split data to train and test set (20~25%)
   
 **3. Prepare for Modeling**
-  >- Check Data
-  >- Check Data
-  >- Check Data
+  >- Feature Engineer - Aggregations ( Any Calculations)
+  >- Transform Data ( Normalize, Standardize, One Hot Encoder...)
+  >- Feature Selection ( Dimension?)
   
 **4. Picking models**
-  >- Check Data
-  >- Check Data
-  >- Check Data
+  >- Try out Models such as Regression or Classification Models
   
 **5. Model Selection**
-  >- Check Data
-  >- Check Data
-  >- Check Data
+  >- Cross-Validation (Kfold...)
   
 **6. Model Tuning and Picking Best Model**
-  >- Check Data
-  >- Check Data
-  >- Check Data
+  >- Hyperparameter tuning ( Using Cross-Validation, Grid Search, Bayesian Optimization...)
+  >- Compare Accuracy and pick best model
+
