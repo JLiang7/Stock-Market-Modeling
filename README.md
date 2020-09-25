@@ -21,7 +21,10 @@ Two-Part Project
 pip install pandas-datareader
 pip install numpy
 pip install pandas
+pip install -U scikit-learn
 ```
+---
+
 ## Modeling
 **1. Data Preprocessing and Exploratory Data Analysis**
   >- Check and Understand Data
