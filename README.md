@@ -12,8 +12,14 @@
 Two-Part Project
 ### First Part 
 - Running models on a static S&P500 csv file
+```
+Stock.ipynb
+```
 ### Second Part
 - Apply modeling to modern stock data retrieved thru API 
+```
+Proj_Stock_Modeling_API.ipynb
+```
 
 ## Setup
 > Install packages first
