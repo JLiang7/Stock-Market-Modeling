@@ -56,3 +56,19 @@ pip install -U scikit-learn
   >- Hyperparameter tuning ( Using Cross-Validation, Grid Search, Bayesian Optimization...)
   >- Compare Accuracy and pick best model
 
+## Insights and Conclusion
+```
+Achieved K-Fold Validation Accuracy of % with a Standard Deviation of %
+Accuracy Score of %
+F-1 Accuary of %
+```
+Confusion Matrix 
+|    | 0  | 1  | 2  |
+|----|----|----|----| 
+| 0  | 13 | 0  | 0  |
+| 1  | 0  | 16 | 0  |
+| 2  | 0  | 1  | 8  |
+
+> **Conclusion**
+
+>- Random Forest and LTSM has achieved similar Accuracy Scores
