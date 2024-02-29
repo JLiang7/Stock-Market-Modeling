@@ -17,7 +17,10 @@ Stock.ipynb
 sphist.csv 
 ```
 ### Second Part
-- Apply modeling to modern stock data retrieved thru API 
+- Apply modeling to modern stock data retrieved thru API such as Quandl, Google, Yahoo, AlphaVantage, sooq ...
+- But for this proj, I will be using yahoo
+- First attempt would be on one stock
+- 2024, added other tech stocks into the picture 
 ```
 Proj_Stock_Modeling_API.ipynb
 ```
