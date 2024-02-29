@@ -34,6 +34,7 @@ pip install pandas
 pip install -U scikit-learn
 pip install matplotlib
 pip install setuptools
+pip install xgboost
 ```
 ---
 
