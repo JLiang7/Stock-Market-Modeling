@@ -1,3 +1,7 @@
+# For the sake of showcase, to hide warnings
+import warnings
+warnings.filterwarnings('ignore')
+
 # Import libraries
 import pandas as pd
 import numpy as np
@@ -90,7 +94,7 @@ mse = mean_squared_error( y_test, y_pred)
 print("MAE: ", mae)
 mape = 100 * (mae/y_test)
 accuracy = 100 - np.mean(mape)
-print('Accuracy: ', round(*accuracy, 2), '%')
+print('Accuracy: ', round(accuracy, 2), '%')
 print("MSE: ", mse)
 print("RMSE: ", np.sqrt(mse))
 print("Score: ", model.score(X, y))
