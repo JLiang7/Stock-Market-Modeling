@@ -26,12 +26,14 @@ Proj_Stock_Modeling_API.ipynb
 ```
 
 ## Setup
-> Install packages first
+> Install packages first (If Anaconda was used, only some packages are needed to be installed)
 ```
 pip install pandas-datareader
 pip install numpy
 pip install pandas
 pip install -U scikit-learn
+pip install matplotlib
+pip install setuptools
 ```
 ---
 
