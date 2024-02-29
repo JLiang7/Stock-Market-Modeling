@@ -74,6 +74,7 @@ plt.show()
 # Random Forest
 from sklearn.ensemble import RandomForestRegressor
 regressor = RandomForestRegressor(n_estimators = 300, random_state = 0)
+
 # Fitting Random Forest Regression to the dataset
 regressor.fit(X, y)
 print("Coef: ", model.coef_)
